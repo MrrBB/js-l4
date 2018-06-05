@@ -12,7 +12,7 @@ function start() {
 	name = prompt("Название вашего магазина?", '').toUpperCase();
 	time = 21;
 }
-// start();
+start();
 
 
 let mainList = {
@@ -91,14 +91,13 @@ let mainList = {
 		})
 
 	},
-
 	
 }
 
 
-	// for( let key in mainList) {
-	// 	alert('Наш магазин включает в себя: '+ key);
-	// };
+	for( let key in mainList) {
+		alert('Наш магазин включает в себя: '+ key);
+	};
 
 
 
