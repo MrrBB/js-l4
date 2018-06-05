@@ -79,7 +79,7 @@ let mainList = {
 			if((typeof(items)) === 'string'  &&  (typeof(items)) != null && items != '' && typeof(items) != false) {
 				mainList.shopItems = items;
 				} 	else {
-						i= i - 1;
+						i = i - 1;
 					}
 			}		
 				mainList.shopItems = items.split(',');
@@ -92,12 +92,14 @@ let mainList = {
 
 	},
 
+	
 }
 
 
 	// for( let key in mainList) {
-	// 	alert('Наш магазин включает в себя:'+ key);
-	// }
+	// 	alert('Наш магазин включает в себя: '+ key);
+	// };
+
 
 
 // console.log(mainList)
